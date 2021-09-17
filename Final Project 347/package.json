@@ -1,0 +1,28 @@
+{
+  "name": "lab10",
+  "version": "1.0.0",
+  "description": "lab10 on authentication and middleware",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "lab10",
+    "authentication",
+    "middleware",
+    "encrypt",
+    "bcrypt",
+    "cookies",
+    "express"
+  ],
+  "author": "Adam Szyluk",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.0",
+    "express-session": "^1.17.1",
+    "path": "^0.12.7",
+    "xss": "^1.0.8"
+  }
+}

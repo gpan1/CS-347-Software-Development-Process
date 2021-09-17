@@ -1,0 +1,114 @@
+* {
+  color: white;
+}
+
+input {
+  color: black;
+}
+
+.centerLogIn {
+  margin: auto;
+  width: 50%;
+  border: 5px double #45a29e;
+  padding: 10px;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #c5c6c7;
+  box-sizing: border-box;
+  width: 300px;
+  /*Centers Login (Username and password) on the login screen, adds color and border, changes font*/
+}
+
+.centerimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*Centers Logo on the login screen*/
+}
+
+.centerLogoText {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #66fcf1;
+  /*Centers Logo Text on the login screen, adds color and font*/
+}
+
+body {
+  /*background-image: url("makesweet.gif"); use this for greatness*/
+  background-color: #0b0c10;
+}
+
+.loginButton {
+  background-color: #1f2833;
+  color: #66fcf1;
+  margin-right: 6px;
+} /*changes color and background color of Log in button, moves it slighty to the left (yes i know it says margin-right but it moves left)*/
+
+/* all this creates rainbow text*/
+.rainbow {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Lucida Console", "Courier New", monospace;
+  letter-spacing: 5px;
+}
+.rainbow_text_animated {
+  background: linear-gradient(
+    to right,
+    #6666ff,
+    #0099ff,
+    #00ff00,
+    #ff3399,
+    #6666ff
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 6s ease-in-out infinite;
+  background-size: 400% 100%;
+  font-weight: bold;
+}
+@keyframes rainbow_animation {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+}
+/**************************************************************************************************/
+
+.errorLog {
+  color: #ff0033;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+} /*Centers the error message on log in screen, changes font and color*/
+
+.bold {
+  font-weight: bold;
+} /*makes stuff bold*/
+
+.buttonL {
+  background-color: #1f2833;
+  color: #66fcf1;
+  text-align: center;
+}
+.buttonLoggedOut {
+  background-color: #1f2833;
+  color: #66fcf1;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+} /*Button styling on logout page*/
+
+.huge {
+  font-size: 30px;
+}
+
